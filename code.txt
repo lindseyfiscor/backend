@@ -1,0 +1,738 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4265-3140 Scouting 2020</title>
+		 <!--header color-->
+		<script type="text/javascript">
+		var colortype = Math.random() * 4;
+		var color = magenta;
+		if (colortype==1){
+			color = magenta;
+		}else{
+			if (colortype==2){
+				color = deepskyblue;
+			}else{
+				if(colortype==3){
+					color= lime;
+				}else{
+					color= yellow; 
+				}
+			}
+		}
+		document.getElementById("color").innerHTML = color;
+		
+		</script><!-- DOSNT WORK-->
+		<style>
+			body{
+			background-color: black
+			}
+			.moretext{
+			color: magenta
+			}
+			.moretext1{
+			color: deepskyblue
+			}
+			.moretext2{
+			color: lime
+			}
+			.moretext3{
+			color: yellow
+			}
+            .header{
+            padding: 10px;
+            text-align: center;
+            background :  blue;
+            color: lightgrey;
+		    border-top: lime;
+		    font: 5
+            }
+            .mbutton, .-button, .pbutton {
+                width: 20px;
+                height: 20px;
+            }
+        </style>
+        
+        
+    <head>
+    <body>
+    <form>
+        <!--header-->
+<!--NO CLICKING ME-->
+		<div class="header"><!--Header End-->
+        <h1>
+			<img src= "https://avatars2.githubusercontent.com/u/50642860?s=400&v=4" height="90" border="3">
+			4265-3140
+			<img src= "https://lh3.googleusercontent.com/proxy/JKnBBbRWuHx4hSRNT8ii2UDYPs2lnI5Vlke9PXlq-d3Bovhp_oyBStrkxT-L3mT6AbVIYCvPOMxYUJNKUx5209r1qurV5fOLBN2S7wmiDJvwUDmUS4JtYt6NiM-OJ0U" height="90" border="3">
+		</h1>
+        <h1>
+		<img src= "https://www.firstinspires.org/sites/default/files/uploads/rightimage/infinite-recharge-web-promo_0.png" height="90" border="3">
+			Scouting 2020 Infinite Recharge
+		<img src= "https://www.firstinspires.org/sites/default/files/uploads/rightimage/infinite-recharge-web-promo_0.png" height="90" border="3">
+		</h1>
+		<hr>
+		</div>
+        <div class="General"><!--General Endd-->
+            <h2 class = "moretext">General Info</h2>
+            <font class = "moretext" size="2" >Scouter Name:</font>
+            <input class = "inputtext" type="text" id="username" size="22">
+            <br>
+            <br>
+            <font class = "moretext" size="2">Team Number:</font>
+            <input class = "inputtext"type="number" phone="teamnum" id="teamnum" size="22">
+            <br>
+            <br>
+            <font class = "moretext" size="2">Match Number:</font>
+            <input class = "inputtext"type="number" phone="matchnum" id="matchnum" size="22">
+            <hr> 
+        </div><!--General-->
+        <div class="autodata"><!--Auto Data End-->
+            <h2 class="moretext1">Auto Data </h2>
+            <font class="moretext1" size="2">
+                Mobility:
+            <input type="radio" name="mobility" value="yes">
+                Yes
+            </input>
+            <input type="radio" name="mobility" value="no">
+                No
+            </input>
+            </font><!--Mobility:-->
+            <br>
+            <font class="moretext1" size="2">
+			<h2 class="moretext1">Balls Scored In: </h2>
+	
+	<script type="text/javascript">
+        var autolower = 0;
+		var autotop = 0;
+		var autocenter = 0;
+		var autogot = 0;
+		var pickupfeeder = 0;
+		var pickupground = 0;
+		var apickupfeeder = 0;
+		var telelower = 0;
+		var telecenter = 0;
+		var teletop = 0;
+		var telemissed = 0;
+	function autolowerplus() {
+        autolower += 1;
+        document.getElementById("autolower").innerHTML = autolower;
+    };
+	function autolowerminus(){
+		if (autolower <= 0) autolower += 1;
+		autolower -= 1;
+		document.getElementById("autolower").innerHTML = autolower;
+	};
+	function autotopplus() {
+        autotop += 1;
+        document.getElementById("autotop").innerHTML = autotop;
+    };
+	function autotopminus(){
+		if (autotop <= 0) autotop += 1;
+		autotop -= 1;
+		document.getElementById("autotop").innerHTML = autotop;
+	};
+	function autocenterplus() {
+        autocenter += 1;
+        document.getElementById("autocenter").innerHTML = autocenter;
+    };
+	function autocenterminus(){
+		if (autocenter <= 0) autocenter += 1;
+		autocenter -= 1;
+		document.getElementById("autocenter").innerHTML = autocenter;
+	};
+	function automissedplus() {
+		autogot += 1;
+		document.getElementById("autogot").innerHTML = autogot;
+    };
+	function automissedminus(){
+		if (autogot <= 0) autogot += 1;
+		autogot -= 1;
+		document.getElementById("autogot").innerHTML = autogot;
+	};
+	function pickupfeederplus() {
+        pickupfeeder += 1;
+        document.getElementById("pickupfeeder").innerHTML = pickupfeeder;
+    };
+	function pickupfeederminus(){
+		if (pickupfeeder <= 0) pickupfeeder += 1;
+		pickupfeeder -= 1;
+		document.getElementById("pickupfeeder").innerHTML = pickupfeeder;
+	};
+    var pickupground = 0;
+    function pickupgroundplus() {
+        pickupground += 1;
+        document.getElementById("pickupground").innerHTML = pickupground;
+    };
+	function pickupgroundminus(){
+		if (pickupground <= 0) pickupground += 1;
+		pickupground -= 1;
+		document.getElementById("pickupground").innerHTML = pickupground;
+	};
+	function apickupfeederplus() {
+        apickupfeeder += 1;
+        document.getElementById("apickupfeeder").innerHTML = apickupfeeder;
+    };
+	function apickupfeederminus(){
+		if (apickupfeeder <= 0) apickupfeeder += 1;
+		apickupfeeder -= 1;
+		document.getElementById("apickupfeeder").innerHTML = apickupfeeder;
+	};
+    var apickupground = 0;
+    function apickupgroundplus() {
+        apickupground += 1;
+        document.getElementById("apickupground").innerHTML = apickupground;
+    };
+	function apickupgroundminus(){
+		if (apickupground <= 0) apickupground += 1;
+		apickupground -= 1;
+		document.getElementById("apickupground").innerHTML = apickupground;
+	};
+	function telelowerplus() {
+        telelower += 1;
+        document.getElementById("telelower").innerHTML = telelower;
+    };
+	function telelowerminus(){
+		if (telelower <= 0) telelower += 1;
+		telelower -= 1;
+		document.getElementById("telelower").innerHTML = telelower;
+	};
+	function teletopplus() {
+        teletop += 1;
+        document.getElementById("teletop").innerHTML = teletop;
+    };
+	function teletopminus(){
+		if (teletop <= 0) teletop += 1;
+		teletop -= 1;
+		document.getElementById("teletop").innerHTML = teletop;
+	};
+	function telecenterplus() {
+        telecenter += 1;
+        document.getElementById("telecenter").innerHTML = telecenter;
+    };
+	function telecenterminus(){
+		if (telecenter <= 0) telecenter += 1;
+		telecenter -= 1;
+		document.getElementById("telecenter").innerHTML = telecenter;
+	};
+	function telemissedplus() {
+        telemissed += 1;
+        document.getElementById("telemissed").innerHTML = telemissed;
+    };
+	function telemissedminus(){
+		if (telemissed <= 0) telemissed += 1;
+		telemissed -= 1;
+		document.getElementById("telemissed").innerHTML = telemissed;
+	};
+			</script>
+			<script type="text/javascript">
+    var autolower = 0;
+    
+    </script>
+	<button type="button" onClick="autolowerplus()">+</button>
+	 Lower: <a id="autolower">0        </a>
+	<button type="button" onClick="autolowerminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+    var autotop = 0;
+    
+    </script>
+	<button type="button" onClick="autotopplus()">+</button> 
+    Top: <a id="autotop">0</a>
+	<button type="button" onClick="autotopminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+	var autocenter = 0;
+    
+    </script>
+	<button type="button" onClick="autocenterplus()">+</button>
+    Center: <a id="autocenter">0</a>
+	<button type="button" onClick="autocenterminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+	var autogot = 0;
+    
+    </script>
+    <button type="button" onClick="automissedplus()">+</button>
+	Missed: <a id="autogot">0</a>
+	<button type="button" onClick="automissedminus()">-</button>
+	<br>
+	
+            </font><!--# of balls shot during Auto-->
+			<script type="text/javascript">
+    var pickupfeeder = 0;
+    
+    </script>
+            <font class = "moretext1" size="2">
+                <b>
+				<font class="moretext1" size="2">
+				<h2 class="moretext1">Picked Up Balls From: </h2>
+				</b>
+				</font>
+				
+                <button type="button" onClick="pickupgroundplus()">+</button>
+				Ground: <a id="pickupground">0</a>
+				<button type="button" onClick="pickupgroundminus()">-</button>
+				<br>
+				<br>
+				<button type="button" onClick="pickupfeederplus()">+</button>
+				Feeder: <a id="pickupfeeder">0</a>
+				<button type="button" onClick="pickupfeederminus()">-</button>
+            </font><!--Where they picked up balls from-->
+            <br>
+            <br>
+            <font class="moretext1" size="2">
+                Penalties During Auto:
+            <input type="radio" name="autopenalties" value="no">
+				No
+			</input>
+			<input type="radio" name="autopenalties" value="yes">
+				yes
+			</input>
+			<br>
+			<br>
+			<body>
+			<hr>
+        </div><!--Auto-->
+        <div class="teleop"><!--TeleOp End-->
+            <h2 class="moretext2">TeleOp</h2>
+            <font class="moretext2" size="2">
+                Rotation Control:
+            </font><!--Rotation Control-->
+			<select id="rotationcontrol">
+            <option value="blank">
+                   
+            </option>
+            <option value="sucess">
+                Sucess
+            </option>
+            <option value="Failed">
+                Failed
+            </option>
+        </select>
+            <br>
+            <br>
+            <font class="moretext2" size="2">
+                Position Control:
+            </font><!--Position Control:-->
+			<select id="positioncontrol">
+            <option value="blank">
+                   
+            </option>
+            <option value="sucess">
+                Sucess
+            </option>
+            <option value="Failed">
+                Failed
+            </option>
+			</select>
+            <br>
+            <script type="text/javascript">
+    var apickupfeeder = 0;
+    
+    </script>
+            <font class = "moretext2" size="2">
+                <h2 class="moretext2">Picked Up Balls From: </h2>
+				
+                <button type="button" onClick="apickupgroundplus()">+</button>
+				Ground: <a id="apickupground">0</a>
+				<button type="button" onClick="apickupgroundminus()">-</button>
+				<br>
+				<br>
+				<button type="button" onClick="apickupfeederplus()">+</button>
+				Feeder: <a id="apickupfeeder">0</a>
+				<button type="button" onClick="apickupfeederminus()">-</button>
+            <br>
+          
+			<font class = "moretext2" size="2">
+			<h2 class="moretext2">Balls Scored In: </h2>
+	
+	<script type="text/javascript">
+	var telelower = 0;
+    
+    </script>
+    <button type="button" onClick="telelowerplus()">+</button>
+	Lower: <a id="telelower">0</a>
+	<button type="button" onClick="telelowerminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+    var teletop = 0;
+    
+    </script>
+    <button type="button" onClick="teletopplus()">+</button>
+    Top: <a id="teletop">0</a>
+	<button type="button" onClick="teletopminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+	var telecenter = 0;
+    
+    </script>
+    <button type="button" onClick="telecenterplus()">+</button>
+    Center: <a id="telecenter">0</a>
+	<button type="button" onClick="telecenterminus()">-</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+	var telemissed = 0;
+    
+    </script>
+    <button type="button" onClick="telemissedplus()">+</button>
+	Missed: <a id="telemissed">0</a>
+	<button type="button" onClick="telemissedminus()">-</button>
+	<br>
+	<br>
+ </font><!--# of balls shot during TeleOp-->
+            <br>
+            <font class="moretext2" size="2">
+                Went Under Trench:
+            <br>
+            <input type="radio" name="trench" value="yes">
+                Yes
+            </input>
+            <br>
+            <input type="radio" name="trench" value="no">
+                No
+            </input>
+            </font><!--Went Under Trench-->
+            <br>
+            <br>
+            <font class="moretext2" size="2">
+                Played Defense
+            <br>
+            <input type="radio" name="defense" value="yes">
+                Yes
+            </input>
+            <br>
+            <input type="radio" name="defense" value="no">
+                No
+            </input>
+            </font><!--Played Defense-->
+            <hr>
+        </div><!--TeleOp-->
+        <div class="endgame"><!--EndGame End-->
+        <h2 class="moretext3">End Game</h2>
+        
+        <font class="moretext3" size="2">
+            Climbed:
+        <input type="radio" name="climber" value="yes">
+            Yes
+        </input>
+        <input type="radio" name="climber" value="fell">
+            Fell
+        </input>
+        <input type="radio" name="climber" value="parked">
+            Parked
+        </input>
+		<input type="radio" name="climber" value="no">
+			No
+		</input>
+        </font><!--Climbed:-->
+        <br>
+        <br>
+        <font class="moretext3" size="2">
+            Climbing With Others
+        <select id="climbingwithothers">
+            <option value="blank">
+                   
+            </option>
+            <option value="middle">
+                Middle
+            </option>
+            <option value="2balanced">
+                2 Robots Balanced
+            </option>
+            <option value="3balanced">
+                3 Robots Balanced
+            </option>
+            <option value="buddy1">
+                Buddy 1
+            </option>
+            <option value="buddy2">
+                Buddy 2
+            </option>
+        </select>
+        </font><!--climbing with others-->
+        <br>
+        <br>
+		<hr>
+        </div><!--End Game-->
+		<div class= "moredata">
+		<h2 class = "moretext">More Data</h2>
+		<br>
+		<font class="moretext" size="2">
+            Furthest Shot
+        <select id="shotfrom">
+            <option value="blank">
+                   
+            </option>
+            <option value="Wall">
+                Wall
+            </option>
+            <option value="Front">
+                Front
+            </option>
+            <option value="Trench">
+                Trench
+            </option>
+            <option value="back">
+                Back
+            </option>
+        </select>
+        </font>
+		<br>
+		<br>
+		<font class="moretext" size="2">
+            Energy Stage
+        <select id="EnergyStage">
+            <option value="blank">
+                   
+            </option>
+            <option value="1">
+                One
+            </option>
+            <option value="2">
+                Two
+            </option>
+            <option value="3">
+                Three
+            </option>
+        </select>
+        </font>
+		<br>
+		<br>
+		<font class="moretext" size="2">
+            Ranking Points
+        <select id="rankingpoints">
+            <option value="blank">
+                   
+            </option>
+            <option value="1">
+                One
+            </option>
+            <option value="2">
+                Two
+            </option>
+            <option value="3">
+                Three
+            </option>
+			<option value="4">
+				Four
+			</option>
+        </select>
+        </font>
+		<br>
+		<br>
+		<font class="moretext" size="2">
+           Cards
+        <select id="climbingwithothers">
+            <option value="blank">
+                   
+            </option>
+            <option value="Yellow Card">
+                Yellow Card
+            </option>
+            <option value="Red Card">
+                Red Card
+            </option>
+        </select>
+		<br>
+		<br>
+		<font class="moretext" size="2">
+            No Show:
+		<input type="radio" name="NoShow" value="yes">
+            Yes
+        </input>
+		<input type="radio" name="NoShow" value="no">
+            No
+        </input>
+		</font>
+		<br>
+		<br>
+		<font class="moretext" size="2">
+            Bricked:
+		<input type="radio" name="Bricked" value="yes">
+           Yes
+        </input>
+		<input type="radio" name="Bricked" value="no">
+            No
+        </input>
+		<br>
+		<br>
+		<font class = "moretext" size="2" >Alliance Penalty:</font>
+        <input class = "inputnumber" type="number" id="alliancepenalty" size="22">
+			<!--scrubb boi input class = "inputrange" type="range" id="Alliance Penalty" size="22" -->
+		</font>
+		</div>
+		
+		
+		      <script src="jquery.js"></script>
+			  <script>
+		$(function () {
+         
+         // Resets the data
+             $('#clearData').click(function (e) {
+                        e.preventDefault();
+                        var username = $('#username').val();
+                        localStorage.clear();
+                        window.localStorage.setItem("username", username);
+                        $('#autolower').val('');
+                        $('#autotop').val('');
+                        //$('#performance').val('');
+                        $('#autocenter').val('');
+                        $('#autogot').val('');
+                        $('#pickupfeeder').val('');
+                        $('#pickupground').val('');
+                        $('#apickupfeeder').val('');
+                        $('#apickupground').val('');
+                        $('#telelower').val('');
+                        $('#telecenter').val('');
+                        $('#teletop').val('');
+                        $('#telemissed').val('');
+                        $('#mobility').val('');
+                        $('#autopenalties').val('');
+                        $('#rotationcontrol').val('');
+                        $('#positioncontrol').val('');
+                        $('#trench').val('');
+                        $('#defense').val('');
+                        $('#climber').val('');
+                        $('#climbingwithothers').val('');
+                        $('#shotfrom').val('');
+                        $('#EnergyStage').val('');
+                        $('#rankingpoints').val('');
+                        $('#yellowcard').val('');
+                        $('#redcard').val('');
+                        //$('#contacts').val('');
+                        $('#NoShow').val('');
+                        $('#Bricked').val('');
+                        $('#alliancepenalty').val('');
+                        $('#driverpos').val('');
+                        $('#drop').val('');
+                            });
+                
+                //  Sends the data
+                    $('#sendData').click(function (e) {
+                        e.preventDefault();
+                        var username = $('#username').val();
+                        window.localStorage.setItem("username", username);
+                        var phone = $('#phone').val();
+                        window.localStorage.setItem("phone", phone);
+                        var teamname = $('#teamname').val();
+                        window.localStorage.setItem("teamname", teamname);
+                        var teamnum = $('#teamnum').val();
+                         window.localStorage.setItem("teamnum", teamnum);
+                        var matchnum = $('#matchnum').val();
+                        matchnumString = matchnum.toString();
+                        window.localStorage.setItem("matchnum", matchnum);
+                        //var performance = $('#performance').val();
+                        //window.localStorage.setItem("performance", performance);
+                        var platform = $('#platform').val();
+                        window.localStorage.setItem("platform", platform);
+                        var climb = $('#climb').val();
+                        window.localStorage.setItem("climb", climb);
+                        var doubleclimb = $('#doubleclimb').val();
+                        window.localStorage.setItem("doubleclimb", doubleclimb);      
+                        var autoComments = $('#autoComments').val();
+                        window.localStorage.setItem("autoComments", autoComments);
+                        var rockethatchesauto = $('#rockethatchesauto').val();
+                        window.localStorage.setItem("rockethatchesauto", rockethatchesauto);
+                        var rockethatchesauto2 = $('#rockethatchesauto2').val();
+                        window.localStorage.setItem("rockethatchesauto2", rockethatchesauto2);
+                        var rockethatchesauto3 = $('#rockethatchesauto3').val();
+                        window.localStorage.setItem("rockethatchesauto3", rockethatchesauto3);
+                        var rocketcargoauto = $('#rocketcargoauto').val();
+                        window.localStorage.setItem("rocketcargoauto", rocketcargoauto);
+                        var rocketcargoauto2 = $('#rocketcargoauto2').val();
+                        window.localStorage.setItem("rocketcargoauto2", rocketcargoauto2);
+                        var rocketcargoauto3 = $('#rocketcargoauto3').val();
+                        window.localStorage.setItem("rocketcargoauto3", rocketcargoauto3);
+                        var shiphatchesauto = $('#shiphatchesauto').val();
+                        window.localStorage.setItem("shiphatchesauto", shiphatchesauto);
+                        var shipcargoauto = $('#shipcargoauto').val();
+                        window.localStorage.setItem("shipcargoauto", shipcargoauto);
+                        var rockethatches = $('#rockethatches').val();
+                        window.localStorage.setItem("rockethatches", rockethatches);
+                        var rockethatches2 = $('#rockethatches2').val();
+                        window.localStorage.setItem("rockethatches2", rockethatches2);
+                        var rockethatches3 = $('#rockethatches3').val();
+                        window.localStorage.setItem("rockethatches3", rockethatches3);
+                        var rocketcargo = $('#rocketcargo').val();
+                        window.localStorage.setItem("rocketcargo", rocketcargo)
+                        var rocketcargo2 = $('#rocketcargo2').val();
+                        window.localStorage.setItem("rocketcargo2", rocketcargo2);
+                        var rocketcargo3 = $('#rocketcargo3').val();
+                        window.localStorage.setItem("rocketcargo3", rocketcargo3);
+                        var shiphatches = $('#shiphatches').val();
+                        window.localStorage.setItem("shiphatches", shiphatches);
+                        var shipcargo = $('#shipcargo').val();
+                        window.localStorage.setItem("shipcargo", shipcargo);
+                        //var contacts = $('#contacts').val();
+                        //window.localStorage.setItem("contacts", contacts);
+                        var bricked = $('#bricked').val();
+                        window.localStorage.setItem("bricked", bricked);
+                        var defenseRating = $('#defenseRating').val();
+                        var penalty = $('#penalty').val();
+                        window.localStorage.setItem("penalty", penalty);
+                        window.localStorage.setItem("defenseRating", defenseRating);
+                        var climbtime = $('#climbtime').val();
+                        window.localStorage.setItem("climbtime", climbtime);
+                        var driverpos = $('#driverpos').val();
+                        window.localStorage.setItem("driverpos", driverpos);
+                        var drop = $('#drop').val();
+                        window.localStorage.setItem("drop", drop);
+
+                if (username !== "" && teamnum !== "" && matchnum !== "") {
+                                    $.ajax({
+                                            url: 'scout.aspx',
+                                            data: { name: username, teamnum: teamnum, matchnum: matchnum, 
+                                            driverpos: driverpos, platform: platform, rockethatchesauto: rockethatchesauto, 
+                                            rockethatchesauto2: rockethatchesauto2, rockethatchesauto3: rockethatchesauto3, 
+                                            rocketcargoauto: rocketcargoauto, rocketcargoauto2: rocketcargoauto2, rocketcargoauto3: rocketcargoauto3,
+                                            shiphatchesauto: shiphatchesauto, shipcargoauto: shipcargoauto, rockethatches: rockethatches,
+                                            rockethatches2: rockethatches2, rockethatches3: rockethatches3, rocketcargo: rocketcargo,
+                                            rocketcargo2: rocketcargo2, rocketcargo3: rocketcargo3, shiphatches: shiphatches,
+                                            shipcargo: shipcargo, drop: drop, climbtime: climbtime, climb: climb, doubleclimb: doubleclimb, 
+                                            defenseRating: defenseRating, bricked: bricked,
+                                            penalty: penalty},
+                                            type: 'POST',
+
+
+                                        success: function () {
+                                            return console.log("success");
+                                            
+                                        },
+                                        error: function (jqXHR, textStatus, errorThrown) {
+                                            console.log("error. textStatus: %s  errorThrown: %s", textStatus, errorThrown);
+                                            return alert("There was an error handling your request please try again.");
+                                        },
+                                        complete: function (jqXHR, textStatus) {
+                                            return console.log("complete. textStatus: %s", textStatus);
+                                        }
+                            
+                        }).done(function (resp) {
+                            alert(resp);
+                    
+                    });
+                } else {
+                    alert("Please Fill All General Info Fields");
+                }
+
+                matchnum = matchnum + 1;
+
+             });
+         });
+						
+	</script>
+    </body>
+	<br>
+	<br>
+	<hr>
+	<script type="text/javascript">
+    </script>
+	<h2 class = "moretext1">The End</h2>
+	<button>Reset</button>
+	
+</html>
