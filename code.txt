@@ -72,18 +72,40 @@
 		</h1>
 		<hr>
 		</div>
-        <div class="General"><!--General Endd-->
+        <div class="General"><!--General End-->
             <h2 class = "moretext">General Info</h2>
-            <font class = "moretext" size="2" >Scouter Name:</font>
-            <input class = "inputtext" type="text" id="username" size="22">
+            <font class = "moretext" size="2" >Scouter Name:
+            <!--<input class = "inputtext" type="text" id="username" size="22">-->
+	    <select id="username">
+	    	<option value="blank">
+		
+		</option>
+		<option value="person1">
+		person1
+		</option>
+		<option value="person2">
+		person2
+		</option>
+	    </font>
             <br>
             <br>
-            <font class = "moretext" size="2">Team Number:</font>
-            <input class = "inputtext"type="number" phone="teamnum" id="teamnum" size="22">
+            <font class = "moretext" size="2">Team Number:
+            <!--<input class = "inputtext"type="number" phone="teamnum" id="teamnum" size="22">-->
+	    	<option value="blank">
+		
+		</option>
+		<option value="3140">
+		3140
+		</option>
+		<option value="4265">
+		4265
+		</option>
+	    </font>
             <br>
             <br>
             <font class = "moretext" size="2">Match Number:</font>
             <input class = "inputtext"type="number" phone="matchnum" id="matchnum" size="22">
+	    <!--this should be a counter because it makes my coding later easier-->
             <hr> 
         </div><!--General-->
         <div class="autodata"><!--Auto Data End-->
@@ -528,7 +550,7 @@
 		<br>
 		<font class="moretext" size="2">
            Cards
-        <select id="climbingwithothers">
+        <select id="cards">
             <option value="blank">
                    
             </option>
