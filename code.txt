@@ -642,71 +642,117 @@
                         e.preventDefault();
                         var username = $('#username').val();
                         window.localStorage.setItem("username", username);
-                        var phone = $('#phone').val();
+                        
+			var teamnum = $('#teamnum').val;
+			window.localStorage.setItem("teamnum"," teamnum);
+			
+			var phone = $('#phone').val();
                         window.localStorage.setItem("phone", phone);
-                        var teamname = $('#teamname').val();
-                        window.localStorage.setItem("teamname", teamname);
-                        var teamnum = $('#teamnum').val();
-                         window.localStorage.setItem("teamnum", teamnum);
-                        var matchnum = $('#matchnum').val();
+                        
+			var matchnum = $('#matchnum').val();
                         matchnumString = matchnum.toString();
-                        window.localStorage.setItem("matchnum", matchnum);
-                        //var performance = $('#performance').val();
-                        //window.localStorage.setItem("performance", performance);
-                        var platform = $('#platform').val();
-                        window.localStorage.setItem("platform", platform);
-                        var climb = $('#climb').val();
-                        window.localStorage.setItem("climb", climb);
-                        var doubleclimb = $('#doubleclimb').val();
-                        window.localStorage.setItem("doubleclimb", doubleclimb);      
-                        var autoComments = $('#autoComments').val();
-                        window.localStorage.setItem("autoComments", autoComments);
-                        var rockethatchesauto = $('#rockethatchesauto').val();
-                        window.localStorage.setItem("rockethatchesauto", rockethatchesauto);
-                        var rockethatchesauto2 = $('#rockethatchesauto2').val();
-                        window.localStorage.setItem("rockethatchesauto2", rockethatchesauto2);
-                        var rockethatchesauto3 = $('#rockethatchesauto3').val();
-                        window.localStorage.setItem("rockethatchesauto3", rockethatchesauto3);
-                        var rocketcargoauto = $('#rocketcargoauto').val();
-                        window.localStorage.setItem("rocketcargoauto", rocketcargoauto);
-                        var rocketcargoauto2 = $('#rocketcargoauto2').val();
-                        window.localStorage.setItem("rocketcargoauto2", rocketcargoauto2);
-                        var rocketcargoauto3 = $('#rocketcargoauto3').val();
-                        window.localStorage.setItem("rocketcargoauto3", rocketcargoauto3);
-                        var shiphatchesauto = $('#shiphatchesauto').val();
-                        window.localStorage.setItem("shiphatchesauto", shiphatchesauto);
-                        var shipcargoauto = $('#shipcargoauto').val();
-                        window.localStorage.setItem("shipcargoauto", shipcargoauto);
-                        var rockethatches = $('#rockethatches').val();
-                        window.localStorage.setItem("rockethatches", rockethatches);
-                        var rockethatches2 = $('#rockethatches2').val();
-                        window.localStorage.setItem("rockethatches2", rockethatches2);
-                        var rockethatches3 = $('#rockethatches3').val();
-                        window.localStorage.setItem("rockethatches3", rockethatches3);
-                        var rocketcargo = $('#rocketcargo').val();
-                        window.localStorage.setItem("rocketcargo", rocketcargo)
-                        var rocketcargo2 = $('#rocketcargo2').val();
-                        window.localStorage.setItem("rocketcargo2", rocketcargo2);
-                        var rocketcargo3 = $('#rocketcargo3').val();
-                        window.localStorage.setItem("rocketcargo3", rocketcargo3);
-                        var shiphatches = $('#shiphatches').val();
-                        window.localStorage.setItem("shiphatches", shiphatches);
-                        var shipcargo = $('#shipcargo').val();
-                        window.localStorage.setItem("shipcargo", shipcargo);
-                        //var contacts = $('#contacts').val();
-                        //window.localStorage.setItem("contacts", contacts);
-                        var bricked = $('#bricked').val();
-                        window.localStorage.setItem("bricked", bricked);
-                        var defenseRating = $('#defenseRating').val();
-                        var penalty = $('#penalty').val();
-                        window.localStorage.setItem("penalty", penalty);
-                        window.localStorage.setItem("defenseRating", defenseRating);
-                        var climbtime = $('#climbtime').val();
-                        window.localStorage.setItem("climbtime", climbtime);
-                        var driverpos = $('#driverpos').val();
-                        window.localStorage.setItem("driverpos", driverpos);
-                        var drop = $('#drop').val();
-                        window.localStorage.setItem("drop", drop);
+			window.localStorage.setItem("matchnum", matchnum);
+                        
+			var mobilityyes = $('#mobilityyes').val();
+                        window.localStorage.setItem("mobilityyes", mobilityyes);
+                        var mobilityno = $('#mobilityno').val();
+                        window.localStorage.setItem("mobilityno", mobilityno);
+                        
+			var autolower = $('#autolower').val();
+                        window.localStorage.setItem("autolower", autolower);
+                        
+			var autotop = $('#autotop').val();
+                        window.localStorage.setItem("autotop", autotop);
+                        
+			var autocenter = $('#autocenter').val();
+                        window.localStorage.setItem("autocenter", autocenter);
+                        
+			var autogot = $('#autogot').val();
+                        window.localStorage.setItem("autogot", autogot);      
+                        
+			var pickupground = $('#pickupground').val();
+                        window.localStorage.setItem("pickupground", pickupground);
+                        
+			var pickupfeeder = $('#pickupfeeder').val();
+                        window.localStorage.setItem("pickupfeeder", pickupfeeder);
+                        
+			var autopenaltiesno = $('#autopenaltiesno').val();
+                        window.localStorage.setItem("autopenaltiesno", autopenaltiesno);
+                        var autopenaltiesyes = $('#autopenaltiesyes').val();
+                        window.localStorage.setItem("autopenaltiesyes", autopenaltiesyes);
+                        
+			var rotationcontrol = $('#rotationcontrol').val();
+                        window.localStorage.setItem("rotationcontrol", rotationcontrol);
+                        
+			var positioncontrol = $('#positioncontrol').val();
+                        window.localStorage.setItem("positioncontrol", positioncontrol);
+                        
+			var apickupground = $('#apickupground').val();
+                        window.localStorage.setItem("apickupground", apickupground);
+                        
+			var apickupfeeder = $('#apickupfeeder').val();
+                        window.localStorage.setItem("apickupfeeder", apickupfeeder);
+                        
+			var telelower = $('#telelower').val();
+                        window.localStorage.setItem("telelower", telelower);
+                        
+			var teletop = $('#teletop').val();
+                        window.localStorage.setItem("teletop", teletop);
+                        
+			var telecenter = $('#telecenter').val();
+                        window.localStorage.setItem("telecenter", telecenter);
+                        
+			var telemissed = $('#telemissed').val();
+                        window.localStorage.setItem("telemissed", telemissed);
+                        
+			var trenchyes = $('#trenchyes').val();
+                        window.localStorage.setItem("trenchyes", trenchyes)
+                        var trenchno = $('#trenchno').val();
+                        window.localStorage.setItem("trenchno", trenchno);
+                        
+			var defenseyes = $('#defenseyes').val();
+                        window.localStorage.setItem("defenseyes", defenseyes);
+                        var defenseno = $('#defenseno').val();
+                        window.localStorage.setItem("defenseno", defenseno);
+                        
+			var climbedyes = $('#climbedyes').val();
+                        window.localStorage.setItem("climbedyes", climbedyes);
+                        var climbedfell = $('#climbedfell').val();
+                        window.localStorage.setItem("climbedfell", climbedfell);
+                        var climbedparked = $('#climbedparked').val();
+                        window.localStorage.setItem("climbedparked", climbedparked);
+                        var climbedno = $('#climbedno').val();
+                        window.localStorage.setItem("climbedno", climbedno);
+			
+			var climbingwithothers = $('#climbingwithothers').val();
+                        window.localStorage.setItem("climbingwithothers", climbingwithothers);
+                        
+                        var shotfrom = $('#shotfrom').val();
+                        window.localStorage.setItem("shotfrom", shotfrom);
+                        
+			var EnergyStage = $('#EnergyStage').val();
+                        window.localStorage.setItem("EnergyStage", EnergyStage);
+                        
+			var rankingpoints = $('#rankingpoints').val();
+                        window.localStorage.setItem("rankingpoints", rankingpoints);
+			
+			var cards = $('#rankingpoints').val();
+			window.localStorage.setItem("rankingpoints", rankingpoints);
+			
+			var NoShowYes = $('#NoShowYes").val();
+			window.localStorage.setItem("NoShowYes", NoShowYes);
+			
+			var NoShowNo = $('#NoShowNo').val();
+			window.localStorage.setItem("NoShowNo", NoShowNo);
+			
+			var brickedyes = $('#brickedyes').val();
+			window.localStorage.setItem("brickedyes", brickedyes);
+			
+			var brickedno = $('#brickedno').val();
+			window.localStorage.setItem("brickedno", brickedno);
+			
+			var alliancepenalty = $('#alliancepenalty').val();
+			window.localStorage.setItem("alliancepenalty", alliancepenalty);
 
                 if (username !== "" && teamnum !== "" && matchnum !== "") {
                                     $.ajax({
