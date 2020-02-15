@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -76,30 +75,33 @@
             <h2 class = "moretext">General Info</h2>
             <font class = "moretext" size="2" >Scouter Name:
             <!--<input class = "inputtext" type="text" id="username" size="22">-->
-	    <select id="username">
-	    	<option value="blank">
-		
-		</option>
-		<option value="person1">
-		person1
-		</option>
-		<option value="person2">
-		person2
-		</option>
+	    	<select id="username">
+	    		<option value="blank">
+			
+			</option>
+			<option value="person1">
+			person1
+			</option>
+			<option value="person2">
+			person2
+			</option>
+		</select>
 	    </font>
             <br>
             <br>
             <font class = "moretext" size="2">Team Number:
             <!--<input class = "inputtext"type="number" phone="teamnum" id="teamnum" size="22">-->
-	    	<option value="blank">
-		
-		</option>
-		<option value="3140">
-		3140
-		</option>
-		<option value="4265">
-		4265
-		</option>
+	    	<select id="teamnum">
+			<option value="blank">
+			
+			</option>
+			<option value="3140">
+				3140
+			</option>
+			<option value="4265">
+				4265
+			</option>
+		</select>
 	    </font>
             <br>
             <br>
@@ -125,16 +127,16 @@
 	
 	<script type="text/javascript">
         var autolower = 0;
-		var autotop = 0;
-		var autocenter = 0;
-		var autogot = 0;
-		var pickupfeeder = 0;
-		var pickupground = 0;
-		var apickupfeeder = 0;
-		var telelower = 0;
-		var telecenter = 0;
-		var teletop = 0;
-		var telemissed = 0;
+	var autotop = 0;
+	var autocenter = 0;
+	var autogot = 0;
+	var pickupfeeder = 0;
+	var pickupground = 0;
+	var apickupfeeder = 0;
+	var telelower = 0;
+	var telecenter = 0;
+	var teletop = 0;
+	var telemissed = 0;
 	function autolowerplus() {
         autolower += 1;
         document.getElementById("autolower").innerHTML = autolower;
