@@ -114,10 +114,10 @@
             <h2 class="moretext1">Auto Data </h2>
             <font class="moretext1" size="2">
                 Mobility:
-            <input type="radio" name="mobility" value="yes">
+            <input type="radio" name="mobility" id="mobilityyes" value="yes">
                 Yes
             </input>
-            <input type="radio" name="mobility" value="no">
+            <input type="radio" name="mobility" id="mobilityno" value="no">
                 No
             </input>
             </font><!--Mobility:-->
@@ -309,10 +309,10 @@
             <br>
             <font class="moretext1" size="2">
                 Penalties During Auto:
-            <input type="radio" name="autopenalties" value="no">
+            <input type="radio" name="autopenalties" id="autopenaltiesno" value="no">
 				No
 			</input>
-			<input type="radio" name="autopenalties" value="yes">
+			<input type="radio" name="autopenalties" id="autopenaltiesyes" value="yes">
 				yes
 			</input>
 			<br>
@@ -414,11 +414,11 @@
             <font class="moretext2" size="2">
                 Went Under Trench:
             <br>
-            <input type="radio" name="trench" value="yes">
+            <input type="radio" name="trench" id="trenchyes" value="yes">
                 Yes
             </input>
             <br>
-            <input type="radio" name="trench" value="no">
+            <input type="radio" name="trench" id="trenchno" value="no">
                 No
             </input>
             </font><!--Went Under Trench-->
@@ -427,11 +427,11 @@
             <font class="moretext2" size="2">
                 Played Defense
             <br>
-            <input type="radio" name="defense" value="yes">
+            <input type="radio" name="defense" id="defenseyes" value="yes">
                 Yes
             </input>
             <br>
-            <input type="radio" name="defense" value="no">
+            <input type="radio" name="defense" id="defenseno" value="no">
                 No
             </input>
             </font><!--Played Defense-->
@@ -442,16 +442,16 @@
         
         <font class="moretext3" size="2">
             Climbed:
-        <input type="radio" name="climber" value="yes">
+        <input type="radio" name="climber" id="climbedyes" value="yes">
             Yes
         </input>
-        <input type="radio" name="climber" value="fell">
+        <input type="radio" name="climber" id="climbedfell" value="fell">
             Fell
         </input>
-        <input type="radio" name="climber" value="parked">
+        <input type="radio" name="climber" id="climbedparked" value="parked">
             Parked
         </input>
-		<input type="radio" name="climber" value="no">
+		<input type="radio" name="climber" id="climbedno" value="no">
 			No
 		</input>
         </font><!--Climbed:-->
@@ -567,10 +567,10 @@
 		<br>
 		<font class="moretext" size="2">
             No Show:
-		<input type="radio" name="NoShow" value="yes">
+		<input type="radio" name="NoShow" id="NoShowYes" value="yes">
             Yes
         </input>
-		<input type="radio" name="NoShow" value="no">
+		<input type="radio" name="NoShow" id="NoShowNo" value="no">
             No
         </input>
 		</font>
@@ -578,10 +578,10 @@
 		<br>
 		<font class="moretext" size="2">
             Bricked:
-		<input type="radio" name="Bricked" value="yes">
+		<input type="radio" name="Bricked" id="brickedyes" value="yes">
            Yes
         </input>
-		<input type="radio" name="Bricked" value="no">
+		<input type="radio" name="Bricked" id="brickedno" value="no">
             No
         </input>
 		<br>
