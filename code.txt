@@ -757,16 +757,18 @@
                 if (username !== "" && teamnum !== "" && matchnum !== "") {
                                     $.ajax({
                                             url: 'scout.aspx',
-                                            data: { name: username, teamnum: teamnum, matchnum: matchnum, 
-                                            driverpos: driverpos, platform: platform, rockethatchesauto: rockethatchesauto, 
-                                            rockethatchesauto2: rockethatchesauto2, rockethatchesauto3: rockethatchesauto3, 
-                                            rocketcargoauto: rocketcargoauto, rocketcargoauto2: rocketcargoauto2, rocketcargoauto3: rocketcargoauto3,
-                                            shiphatchesauto: shiphatchesauto, shipcargoauto: shipcargoauto, rockethatches: rockethatches,
-                                            rockethatches2: rockethatches2, rockethatches3: rockethatches3, rocketcargo: rocketcargo,
-                                            rocketcargo2: rocketcargo2, rocketcargo3: rocketcargo3, shiphatches: shiphatches,
-                                            shipcargo: shipcargo, drop: drop, climbtime: climbtime, climb: climb, doubleclimb: doubleclimb, 
-                                            defenseRating: defenseRating, bricked: bricked,
-                                            penalty: penalty},
+                                            data: { name: username, teamnum: teamnum, phone: phone, matchnum: matchnum, 
+                                            mobilityyes: mobilityyes, mobilityno: mobilityno, autolower: autolower, 
+                                            autotop: autotop, autocenter: autocenter, autogot: autogot, pickupground: pickupground, 
+					    pickupfeeder: pickupfeeder, autopenaltiesno: autopenaltiesno, autopenaltiesyes: 
+					    autopenaltiesyes, rotationcontrol: rotationcontrol, positioncontrol: positioncontrol, 
+					    apickupground: apickupground, apickupfeeder: apickupfeeder, telelower: telelower, 
+					    teletop: teletop, telecenter: telecenter, telemissed: telemissed, trenchyes: trenchyes,
+					    trenchno: trenchno, defenseyes: defenseyes, defenseno: defenseno, climbedyes: climbedyes,
+                                            climbedfell: climbedfell, climbedparked: climbedparked, climbedno: climbedno,
+					    climbingwithothers: climbingwithothers, shotfrom: shotfrom, EnergyStage: EnergyStage,
+					    rankingpoints: rankingpoints, cards: cards, NoShowYes: NoShowYes, NoShowNo: NoShowNo,
+					    brickedyes: brickedyes, brickedno, brickedno, alliancepenalty: alliancepenalty},
                                             type: 'POST',
 
 
